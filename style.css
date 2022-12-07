@@ -1,0 +1,76 @@
+   .header {
+       background-color: #F1F1F1;
+       text-align: left;
+       padding: 20px;
+   }
+
+   .footer {
+       background-color: #f1f1f1;
+       text-align: center;
+   }
+
+   h1 {
+       color: darkcyan;
+       font-family: verdana;
+       font-size: 150%;
+   }
+
+   a {
+       color: darkcyan;
+       font-family: Arial;
+       font-size: 100%;
+   }
+
+   p {
+       color: darkcyan;
+       font-family: Arial;
+   }
+
+   table,
+   tr,
+   th {
+       border: 1px solid white;
+       padding: 7px;
+       text-align:left;
+   }
+
+   th.a {
+       background-color: cadetblue;
+       color: white;
+       font-size: 130%;
+   }
+
+   td {
+       padding: 8px;
+   }
+
+   td.resum {
+       padding: 8px;
+       text-align: justify;
+   }
+
+   ul {
+       padding-left: 13px;
+       margin-top: 0px;
+   }
+
+   input,
+   textarea {
+       width: 60%;
+       margin-top: 4px;
+       padding-left: 10px;
+       height: 20px;
+       line-height: 20px;
+       border-radius: 15px;
+       border: 1px solid #ccc;
+   }
+
+   input.b {
+       text-align: center;
+       width: 30%;
+       margin-top: 10px;
+       height: 40px;
+       line-height: 20px;
+       border-radius: 15px;
+       border: 3px solid #ccc;
+   }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/style.css" rel="stylesheet" type="text/css">     
+</head>
+<body>
+    
+<div class="header"><a href="/resume.php" title="Go to Home">Home - </a> 
+    <a href="mailto:teste@gmail.com" title="Send an email">Contato -</a> 
+    <a href="https://www.linkedin.com/in/tamires-costa" target="_blank" title="Go to Linkedin">Linkedin - </a>
+    <a href="/editar.php" title="Go to Edição">Editar Informações </a>
+</div>
+<table style="width:40% " align="center">
+    <tr>
+        <th class="a" colspan="2">Inserir Informações</th>
+    </tr>
+    <tr>
+        <td align="center">
+        <form method="POST" action="insere.php">
+            <label>Nome: </label>            
+            <input type="text" name="nome"><br>
+            <label>Perfil:</label>
+            <textarea style="height: 60px" type="text" name="perfil"></textarea><br>
+            <label>Objetivo:</label>
+            <textarea style="height: 60px" type="text" name="objetivo"></textarea><br>
+            
+            <p>Projetos e Competências</p>
+            <label>Descrição: </label>
+            <textarea style="height: 60px" type="text" name="projetos_resumo"></textarea><br><br><br>
+                       
+            <input class="b" type="submit" value="INSERIR">
+            </form>
+        </td>    
+    </tr>
+</table>
+        
+    
+<div class="footer" align="bottom">
+  <p>Email: <a href="mailto:teste@gmail.com" title="Send an email">teste@gmail.com</a></p>
+</div>
+    
+</body>
+</html>
